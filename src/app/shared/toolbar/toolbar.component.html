@@ -1,0 +1,42 @@
+<nav class="sticky-top navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" routerLink="/home">
+      <img src="assets/img/logo-01.png" alt="logo" />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarColor02"
+      aria-controls="navbarColor02"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor02">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/home"
+            >Inicio
+            <span class="visually-hidden">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/productos">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/info">Información</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/ubicacion">Ubicación</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav mx-right">
+        <li class="nav-item text-end">
+          <img src="assets/img/logo-michelin.png" alt="Michelin" />
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
