@@ -1,3 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body{
+    font-family: 'Montserrat';
+}
+
+
+@media (min-width: 993px)
+{
+    .text-titulo{
+        margin-top: 130px;
+    }
+}
+
+
